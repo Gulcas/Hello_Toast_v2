@@ -42,4 +42,13 @@
         android:text="@string/button_label_count"
         android:textColor="@color/black" />
 
+    <Button
+        android:id="@+id/zero_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/button_zero"
+        android:textColor="@android:color/black"
+        android:onClick="zeroCount"/>
+
 </LinearLayout>
